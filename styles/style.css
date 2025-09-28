@@ -217,11 +217,27 @@ body {
     flex-direction: column;
 }
 
+.about {
+    padding: 180px 0 160px;
+}
+
 .about__createx {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 180px;
+    position: relative;
+}
+
+.about__createx::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -119px;
+    right: -220px;
+    background: url("../img/decor/1.svg");
+    width: 100px;
+    height: 85px;
 }
 
 .about__createx-content {
@@ -269,4 +285,43 @@ body {
 
 .about__content-btn:last-child {
     margin-right: 0;
+}
+
+.about__values {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__values-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.about__values-list {
+    margin-left: 20px;
+    align-self: center;
+}
+
+.about__values-item {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about__values-item:last-child {
+    margin-bottom: 0;
+}
+
+.about__values-item span {
+    font-weight: 900;
+    color: #FF3F3A;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    margin-right: 16px;
 }

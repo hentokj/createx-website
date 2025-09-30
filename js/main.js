@@ -7,4 +7,12 @@ $(function () {
         $(this).addClass('directions__filter-btn__active');
     })
 
+    // $('.team__slider').slick({
+        
+    // })
 })
+
+$(document).ready(function(){
+  $('.team__slider').slick({
+  });
+});

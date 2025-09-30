@@ -368,7 +368,7 @@ body {
   opacity: 0.4;
 }
 
-.heading {
+.directions__heading {
   margin-bottom: 90px;
 }
 
@@ -516,3 +516,63 @@ body {
 /*===========================CERTIFICATE============================*/
 /*===========================CERTIFICATE============================*/
 
+.main__cert {
+  margin-bottom: -46px;
+}
+
+.cert__inner {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.cert__inner::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  top: -19px;
+  left: -156px;
+
+  background: url("../img/decor/4.svg") 0 0 no-repeat;
+}
+
+.cert__content {
+  margin-right: 20px;
+  max-width: 392px;
+}
+
+.cert__heading {
+  margin-bottom: 48px;
+}
+
+.cert__text {
+  font-weight: 400;
+  line-height: 1.6;
+  color: #424551;
+  max-width: 390px;
+  margin-bottom: 32px;
+}
+
+.cert__brands {
+  display: flex;
+}
+
+.cert__brands-item {
+  margin-right: 40px;
+}
+
+.cert__brands-item:last-child {
+  margin-right: 0;
+}
+
+.cert__picture-box {
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+  box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.16),
+    0 30px 24px -10px rgba(154, 156, 165, 0.1),
+    0 12px 10px -6px rgba(154, 156, 165, 0.8),
+    0 4px 4px -4px rgba(154, 156, 165, 0.5);
+}
